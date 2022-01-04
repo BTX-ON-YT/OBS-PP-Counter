@@ -23,3 +23,5 @@ A python script the interfaces whith the scoresaber api
 9: then in the properties menu scroll down and select chatlog mode
 
 10: now run main.py
+
+it will take 15 seconds to update the pp counter
