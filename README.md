@@ -2,7 +2,7 @@
 
 A python script the interfaces whith the scoresaber api
 
-# How To Install
+# How To Run
 
 1: install python from https://www.python.org (make sure to select add python to path when installing python)
 
@@ -25,3 +25,9 @@ A python script the interfaces whith the scoresaber api
 10: now run main.py
 
 it will take 15 seconds to update the pp counter
+
+# How To Get Scoresaber User Id
+
+1: go to scoresaber.com and search for your scoresaber profile
+
+2: the numbers after scoresaber.com/u/ is yor userid eg. https://scoresaber.com/u/76561198307100618 and 76561198307100618 is my user id
