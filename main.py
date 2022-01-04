@@ -3,15 +3,16 @@ import time
 
 uid = input("scoresaber user id: ")
 while True:
+    apiurl = ''
+    apiurl = apiurl + "https://scoresaber.com/api/player/" + uid + '/full'
+
+    response_API = requests.get(apiurl)
+
     time.sleep(10)
     with open("pp.txt", 'r+') as f:
         f.truncate(0)
         f.close()
     # response_API = requests.get('https://scoresaber.com/api/player/76561198307100618/full')
-    apiurl = ''
-    apiurl = apiurl + "https://scoresaber.com/api/player/" + uid + '/full'
-
-    response_API = requests.get(apiurl)
 
     # print(response_API.json())
 
